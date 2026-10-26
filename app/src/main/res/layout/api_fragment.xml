@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/bg_gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etApiQuery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/blydo"
+            android:textColor="@color/black"
+            android:inputType="text"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnSearchApi"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="@string/api"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_rounded" />
+
+        <TextView
+            android:id="@+id/tvApiResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:textSize="16sp"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btnSaveToBase"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/soxr"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_rounded"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btnViewCollection"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/my"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_rounded" />
+
+    </LinearLayout>
+</ScrollView>

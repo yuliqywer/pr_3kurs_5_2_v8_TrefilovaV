@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Рецепты</string>
+    <string name="hello">Добро пожаловать!</string>
+    <string name="log">Логин</string>
+    <string name="par">Пароль</string>
+    <string name="vxod">Войти</string>
+    <string name="soxr">Сохранить рецепт</string>
+    <string name="my">Мои сохраненные рецепты</string>
+    <string name="blydo">Введите блюдо (например, pasta)</string>
+    <string name="api">Найти через API</string>
+    <string name="rez">Здесь появятся результаты поиска...</string>
+    <string name="find">Найти рецепт в интернете (API)</string>
+    <string name="nazad">Назад</string>
+    <string name="dann">Введите данные для входа</string>
+
+</resources>
